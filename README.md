@@ -1,6 +1,10 @@
 # PostbirdPaginatorDriver.js
 > JS 分页驱动
 
+## 在线体验：
+
+<a href="http://postbird.oschina.io/postbirdpaginatordriver.js/" target="_blank">http://postbird.oschina.io/postbirdpaginatordriver.js/</a>
+
 ## 优点：
 - 可以自动获取当前页，并进行响应式显示
 - 不污染url，GET参数可正常再次传递
