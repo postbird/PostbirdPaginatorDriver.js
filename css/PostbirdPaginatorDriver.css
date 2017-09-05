@@ -1,0 +1,38 @@
+/**
+     PostbirdPaginatorDriver 自动分页驱动
+    功能：
+        - 可以自动获取当前页，并进行响应式显示。
+        - 不污染url，GET参数可正常再次传递
+        - 可配置性高，多种显示选择
+    Author:Postbird | http://www.ptbird.cn
+    License:MIT
+*/
+
+.page-item {
+    display: inline-block;
+}
+
+.page-item>a {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.page-item>a:hover {
+    background-color: #ddd;
+}
+
+.page-item.active>a {
+    background-color: #cccccc;
+}
+
+.page-item.disabled>a:hover {
+    background-color: transparent;
+    cursor: default;
+}
